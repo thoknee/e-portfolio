@@ -1,7 +1,7 @@
-/* * {  
+/* *{   
     outline: 1px solid red;
     outline-offset: -1px;
-  }*/   
+  }   */
 
 body{
     max-width: 50em;
@@ -30,3 +30,14 @@ body{
     line-height: 2;
     margin: 35px 0px;
 }
+
+  .abt-me{
+    text-align: center;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+  }
+
+  .divider-bot{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
