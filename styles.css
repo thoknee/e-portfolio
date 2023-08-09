@@ -13,11 +13,15 @@ body{
     font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }
 
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .contact{
     line-height: 8px;
 }
+
 .header{
     display:flex;
     justify-content: space-between;
@@ -29,9 +33,15 @@ body{
     color: darkgrey;
     line-height: 2;
     margin: 35px 0px;
+    
 }
-
-  .abt-me-div{
+.divider-info{
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    
+}
+  .divider-text{
     text-align: center;
     padding-top: 15px; 
     padding-bottom: 15px;
@@ -63,3 +73,95 @@ body{
   .other-info{
     display: flex;
   }
+
+  .footer{
+    padding-top: 24px;
+    text-align: center;
+  }
+
+  .linkdin {
+    text-decoration: none;
+  }
+
+  .cs-stuff{
+    text-align: center; 
+  }
+
+  .course-work{
+  }
+
+  #learn-more {
+    padding: 13px 26px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    transition: 0.1s background-color linear, 0.1s color linear;
+  }
+
+  .course-work-content{
+    display:flex;
+    justify-content: space-between;
+  }
+  .course-work-info{
+    width: 400px;
+  }
+  .course-work-link{
+    justify-content: center;
+    align-self:center;
+  }
+
+  .project-content{
+    display:flex;
+    justify-content: space-between;
+  }
+  .project-info{
+    width: 400px;
+  }
+  .project-link{
+    justify-content: center;
+    align-self:center;
+  }
+
+  .work-content{
+    display:flex;
+    justify-content: space-between;
+  }
+  .work-info{
+    width: 400px;
+  }
+  .work-link{
+    justify-content: center;
+    align-self:center;
+  }
+
+  .main-content{
+    display: flex;
+    justify-content: space-between;
+
+    
+  }
+
+  .github-link{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .my-work{
+    text-align: left;
+    flex-grow: 2
+  }
+
+  #courses{
+    list-style-type: disc;
+  }
+
+  .resume-jpg{
+    height: 100%;
+    width: 100%;
+
+  }
+  
+  
