@@ -165,3 +165,20 @@ a{
   }
   
   
+  .number-game-info{
+    display: flex;
+    gap: 50px;
+  }
+
+  .game-pic{
+    width: 200px;
+    height: auto;
+  }
+
+  .number-game-git{
+    align-items: center;
+  }
+
+  .left-side-number{
+    padding: 0 px 25px;
+  }
